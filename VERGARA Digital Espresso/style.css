@@ -1,0 +1,258 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+height: 100vh;
+width: 100%;
+background: url(pictures/background.png);
+background-size: cover;
+background-position: center;
+font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+.container2{
+height: 100vh;
+width: 100%;
+background: url(pictures/productsbg.png);
+background-size: cover;
+background-position: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+.container3{
+height: 100vh;
+width: 100%;
+background: url(pictures/aboutusbg.png);
+background-size: cover;
+background-position: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+.container4{
+height: 100vh;
+width: 100%;
+background: url(pictures/branchesbg.png);
+background-size: cover;
+background-position: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 30px 60px ;
+}
+.navbar .title{
+color: #fff;
+font-size: 30px;
+margin-left: 110px;
+position: absolute;
+cursor:pointer;
+}
+.menu li{
+list-style: none;
+display: inline-block;
+
+}
+.menu li a{
+text-decoration: none;
+color:#fff;
+font-size: 20px;
+font-weight: 300;
+margin-left: 25px;
+transition: .4s ease;
+
+}
+.menu li a:hover{
+color: #720a039f;
+background-color: #fff;
+border-radius: 5px;
+padding: 8px 20px;
+border: 2px solid #720a039f;
+}
+.logo{
+height: 100px;
+margin-top: -5px;
+cursor:pointer;
+}
+.home{
+height: 400px;
+padding: 70px;
+}
+.title-1{
+font-size: 50px;
+color: #fff;
+font-weight: 300;
+height: 60px;
+
+}
+.home p{
+color: #720a039f;
+font-size: 20px;
+padding-top: 10px;
+}
+.home button{
+height:40px;
+color: #fff;
+background-color: #3a0501;
+font-size: 24px;
+padding: 5px 30px;
+margin-top: 20px;
+border: none;
+border-radius: 5px;
+transition: .4s ease;
+cursor: pointer;
+}
+.home button:hover{
+color: #720a039f;
+background-color: #fff;
+border: 5px solid #720a039f;
+}
+.products{
+color: #fff;
+height: 400px;
+padding: 70px;
+}
+.products p{
+color: #3a0501;
+font-size: 18px;
+text-decoration: none;
+}
+.products button{
+height:40px;
+color: #fff;
+background: #720a039f;
+font-size: 22px;
+padding: 5px 30px;
+margin-top: 20px;
+border: none;
+border-radius: 5px;
+transition: .4s ease;
+cursor: pointer;
+}
+.products button:hover{
+color: #3a0501;
+background: #fff;
+border: 5px solid #720a039f;
+}
+
+.products{
+display: flex;
+height: 60%;
+align-items: center;
+}
+.column1{
+flex-basis:90%;
+}
+.column2{
+flex-basis:90%;
+padding-left: 120px;
+
+}
+.card{
+width: 200px;
+height: 180px;
+display: inline-block;
+border-radius: 10px;
+border: 5px solid #555;
+cursor: pointer;
+margin: 10px 15px;
+background-position: center;
+background-size: cover;
+transition: 0.5s;
+padding: 20px 25px;
+box-sizing: border-box;
+}
+.card:hover{
+transform: translateY(10px);
+width: 230x;
+height: 250px;
+}
+.cappuccino{
+background-image: url(pictures/cappuccino.jpg);
+}
+.americano{
+background-image: url(pictures/americano.jpg);
+}
+.espresso{
+background-image: url(pictures/espresso.png);
+}
+.aboutus{
+height: 500px;
+padding: 70px;
+color: #fff;
+}
+.aboutus p{
+color: #fff;
+font-size: 18px
+}
+.aboutus button{
+height:40px;
+color: #fff;
+background: #720a039f;
+font-size: 24px;
+padding: 5px 30px;
+margin-top: 20px;
+border: none;
+border-radius: 5px;
+transition: .4s ease;
+cursor: pointer;
+}
+.aboutus button:hover{
+background: #fff;
+color: #3a0501;
+border: 5px solid #720a039f;
+}
+
+.branches{
+height: 400px;
+padding: 70px;
+}
+.branches p{
+color: #720a039f;
+font-size: 20px;
+}
+.branches button{
+height:40px;
+color: #720a039f;
+background: #720a039f;
+font-size: 22px;
+padding: 5px 30px;
+margin-top: 20px;
+border: none;
+border-radius: 5px;
+transition: .4s ease;
+cursor: pointer;
+}
+.branches button:hover{
+background: #720a039f;
+border: 2px solid #720a039f;
+}
+.branches{
+height: 400;
+padding: 70px;
+
+}
+.title-2{
+font-size: 25px;
+color: #fff;
+font-weight: 600;
+}
+.title-3{
+font-size: 20px;
+color: #fff;
+}
+.footer{
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #3a0501;
+color: #fff;
+text-align: center;
+padding: 5px;
+}
+.footer p{
+color: #fff;
+}
